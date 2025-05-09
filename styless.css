@@ -1,0 +1,13 @@
+
+h1 {
+    border: 2px solid black; /* Creates a border for the box */
+    padding: 10px; /* Adds space inside the border */
+    background-color: #f0f0f0; /* Optional: background color */
+    border-radius: 5px; /* Optional: rounded corners */
+    margin: 10px; /* Optional: space outside the box */
+    display: flex; /* Applies Flexbox */
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    width: fit-content; /* Makes the box fit the content width */
+}
+
