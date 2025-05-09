@@ -23,14 +23,12 @@ let game = {
 
 
   // Add event listener to the submit button
-document.addEventListener("DOMContentLoaded", () => {
-    const submitButton = document.getElementById("submit");
-    const guessInput = document.getElementById("guess");
-    const resultDisplay = document.createElement("p");
-    document.body.appendChild(resultDisplay);
-
-    submitButton.addEventListener("click", () => {
-        const userGuess = parseInt(guessInput.value);
-        resultDisplay.textContent = makeGuess(userGuess);
-    });
-});
+  const submitButton = document.getElementById("submit");
+  const guessInput = document.getElementById("guess");
+  const resultDisplay = document.createElement("p");
+  document.body.appendChild(resultDisplay);
+  
+  submitButton.addEventListener("click", () => {
+      const userGuess = parseInt(guessInput.value);
+      resultDisplay.textContent = makeGuess(userGuess);
+  });
